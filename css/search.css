@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 
-.search .btn{
+.active .btn{
     position: absolute;
     top: 0;
     right: 0;
