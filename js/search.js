@@ -1,4 +1,6 @@
 btn = document.querySelector('.btn')
 
 
-btn.add
+btn.addEventListener('click', () => {
+    
+})
