@@ -11,6 +11,8 @@ body {
 }
 .loading-text {
     font-size: 50px;
+    color: pink;
+    opacity: .9;
 }
 
 .bg {
@@ -19,4 +21,8 @@ body {
     position: absolute;
     z-index: -1;
     background-image: url("images/nature.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(px);
 }
