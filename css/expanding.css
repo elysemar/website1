@@ -47,7 +47,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
-    transition; opacity 0.6s ease-in 0.5s;
+    transition: opacity .6s ease-in 0.5s;
 }
 
 @media (max-width: 480px) {
@@ -55,7 +55,7 @@ body {
         display: none;
     }
     .panel:nth-of-type(5){
-        display:none;
+        display: none;
     }
     .container{
         width: 100vw;
