@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Concert+One&family=Quicksand:wght@300..700&display=swap')
+
 * {
     box_sizing: border-box;
 }
@@ -8,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    font-family: "Concert One", sans-serif;
 }
 
 .container {
@@ -38,9 +41,21 @@ body {
     bottom: 20px;
     left: 20px;
     margin: 0;
-    opacity: 0;
+    opacity: 1;
 }
 
 .panel.active h3 {
-    
+
+}
+
+@media (max-width: 480px) {
+    .panel:nth-of-type(4){
+        display: none;
+    }
+    .panel:nth-of-type(5){
+        display:none;
+    }
+    .container{
+        width: 100vw;
+    }
 }
