@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: rgb(232, 142, 146);
+    background-color: rgb(255, 112, 146);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -10,13 +10,13 @@ body {
 }
 
 .btn {
-    background-color: pink;
+    background-color: lightpink;
     font-size: 1.2rem;
     padding: 1.5rem 3rem;
     margin: 1rem;
     border-radius: 50px;
     border: none;
-    color: rgb(207, 147, 167);
+    color: rgb(255, 112, 146);
     cursor: pointer;
 
 }
