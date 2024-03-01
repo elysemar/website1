@@ -1,6 +1,22 @@
 
 
 body {
-    background-color: rgb(223, 50, 150);
+    background-color: rgb(207, 147, 167);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn {
+    background-color: pink;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    border-radius: 50px;
+    border: none;
+    color: rgb(207, 147, 167);
+    cursor: pointer;
 
 }
