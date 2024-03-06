@@ -67,7 +67,7 @@ body {
 
 .nav {
     position: fixed;
-    background-color: #222;
+    background-color: pink;
     top: 0;
     left: 0;
     right: 0;
@@ -98,11 +98,11 @@ body {
 
 .nav.active {
     background-color: white;
-    box-shadow: 0 2px 10px rbga(0,0,0,0.3);
+    box-shadow: 0 2px 10px rbga(0,0,0,0.5);
 }
 
 .nav.active a {
-    color: black;
+    color: pink;
 }
 
 .nav.active .container {
