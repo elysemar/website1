@@ -15,6 +15,10 @@ body {
 
 }
 
+body.show-nav {
+    transform: translateX(200px)
+}
+
 nav {
     background-color: var(--primary-color);
     position: fixed;
