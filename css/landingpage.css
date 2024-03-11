@@ -116,7 +116,7 @@ button, input[type='submit'] {
     right: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.6);
-    /* display: none; */
+    display: none;
 }
 
 .modal {
@@ -166,5 +166,4 @@ modal-header h3 {
     right: 0;
     background: transparent;
     font-size: 25px;
-    
 }
