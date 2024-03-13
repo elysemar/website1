@@ -20,5 +20,8 @@ body h1 {
     color: white;
     margin: 0 0 20px;
     justify-content: center;
-    
+    position: fixed;
+    top: 0;
+    right: 10px;
+    left: 10px;
 }
