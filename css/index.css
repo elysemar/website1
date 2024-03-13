@@ -109,7 +109,7 @@ body {
     transition: transform .5s ease;
 }
 
-.search.a{
+.search a {
     background-color: white;
     border: 0;
     font-size: 18px;
