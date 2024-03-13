@@ -50,5 +50,5 @@ body .search a {
         border: none;
         color: rgb(255, 112, 146);
         cursor: pointer;
-
+        width: 2px;
 }
