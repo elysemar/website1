@@ -33,7 +33,7 @@ body h1 {
     border: 0;
     font-size: 18px;
     height: 50px;
-    width: 50px;
+    width: 300px;
     padding: 15px;
     box-sizing: border-box;
     transition: width .5s ease;
