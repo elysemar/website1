@@ -38,3 +38,16 @@ body h1 {
     color: rgb(255, 112, 146);
     cursor: pointer;
 }
+
+body .search a {
+
+        background-color: lightpink;
+        font-size: 1.2rem;
+        padding: 1.5rem 3rem;
+        margin: 1rem;
+        border-radius: 50px;
+        border: none;
+        color: rgb(255, 112, 146);
+        cursor: pointer;
+
+}
