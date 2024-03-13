@@ -29,7 +29,7 @@ body h1 {
 }
 
 .search {
-    position: 
+    position:
     background-color: white;
     border: 0;
     font-size: 18px;
@@ -65,4 +65,12 @@ body h1 {
     width: 50px;
     cursor: pointer;
     transition: transform .5s ease;
+}
+
+.search.active {
+    width: 200px;
+}
+
+.search.active .btn{
+    transform: translateX(190px);
 }
