@@ -77,6 +77,8 @@ body h1 {
 
 
 
+
+
 * {
     box-sizing: border-box;
 }
@@ -109,7 +111,7 @@ body {
     transition: transform .5s ease;
 }
 
-.search a {
+.search a{
     background-color: white;
     border: 0;
     font-size: 18px;
@@ -120,11 +122,11 @@ body {
     transition: width .5s ease;
 }
 
-.search.a :focus{
+.search a:focus{
     outline: none;
 }
 
-.search.active .input{
+.search.active a{
     width: 200px;
 }
 
