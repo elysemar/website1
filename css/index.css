@@ -19,7 +19,7 @@ body {
 }
 
 body h1 {
-    font-size: 400%;
+    font-size: 340%;
     color: white;
     margin: 0 0 20px;
     justify-content: center;
@@ -28,30 +28,97 @@ body h1 {
     right: 0px;
     left: 0px;
     text-align: center;
-}
-
-.btn {
-    position: relative;
     background-color: lightpink;
-    font-size: 1.2rem;
-    padding: 1.5rem 3rem;
-    margin: 1rem;
-    border-radius: 50px;
-    border: none;
-    color: rgb(255, 112, 146);
-    cursor: pointer;
+    padding: 10px;
 }
 
-body .search a {
-        position: fixed;
-        background-color: lightpink;
-        font-size: 0.9rem;
-        padding: 0rem 2rem;
-        margin: 1rem;
-        border-radius: 50px;
-        border: none;
-        color: rgb(255, 112, 146);
-        cursor: pointer;
-        width: 115px;
-        top: 260px;
+body {
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
+
+.search{
+    height: 200px;
+    position: relative;
+}
+
+.search .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0px;
+    font-size: 24px;
+    background-color: white;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+
+
+.search .link {
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    transition: width .5s ease;
+}
+
+.search .link:focus{
+    outline: none;
+}
+
+.search.active .link {
+    width: 200px;
+}
+
+.search.active .btn{
+    transform: translateX(190px);
+}
+
+.loading{
+    height: 200px;
+    position: relative;
+}
+
+.loading .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0px;
+    font-size: 24px;
+    background-color: white;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+
+
+.loading .link {
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    transition: width .5s ease;
+}
+
+.loading .link:focus{
+    outline: none;
+}
+
+.loading.active .link {
+    width: 200px;
+}
+
+.loading.active .btn{
+    transform: translateX(190px);
+}
+
+
