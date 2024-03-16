@@ -26,30 +26,28 @@ body {
     /* justify-content: space-between; */
     font-family: "Andika", sans-serif;
     margin: 15px;
-
+}
 
 
 
 body h1 {
-    font-size: 340%;
-    color: white;
-    margin: 0 0 20px;
-    justify-content: center;
     position: fixed;
-    top: 0px;
+    background-color: palevioletred;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-    background-color: lightpink;
-    padding: 10px;
+    padding: 20px;
 }
 
 .link {
     opacity: 0;
 }
-.link {
+.link.active {
     opacity: 1;
 }
 
-}
+
 
 .btn {
     background-color: lightpink;
