@@ -45,7 +45,7 @@ body h1 {
 .link {
     opacity: 0;
 }
-.link.active {
+.link {
     opacity: 1;
 }
 
