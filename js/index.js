@@ -5,9 +5,9 @@ btn.addEventListener('click', () => {
     search.classList.toggle('active')
 })
 
-btn = document.querySelector('.btn')
+Lbtn = document.querySelector('.Lbtn')
 loading = document.querySelector('.loading')
 
-btn.addEventListener('click', () => {
+Lbtn.addEventListener('click', () => {
     loading.classList.toggle('active')
 })
