@@ -43,12 +43,11 @@ body h1 {
 }
 
 .link {
-    background-color: lightpink;
-    position: center;
-    color: rgba(222, 22, 222, 0.2);
-    text-decoration: none;
-    flex-direction: column;
-    opacity
+    opacity: 0;
+}
+.link .active {
+    opacity: 1;
+}
 
 }
 
