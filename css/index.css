@@ -5,6 +5,33 @@
 }
 
 body {
+    font-family: "Andika", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.loading-text {
+    font-size: 50px;
+    color: white;
+    opacity: 1;
+}
+
+.bg {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    background-image: url("images/drpepper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0px)
+
+}
+/* body {
     background-color: pink;
     height: 100vh;
     display: flex;
@@ -16,11 +43,11 @@ body {
     justify-content: space-between;
     font-family: "Andika", sans-serif;
     margin: 15px;
-
+ */
 
 }
 
-body h1 {
+/* body h1 {
     font-size: 340%;
     color: white;
     margin: 0 0 20px;
@@ -31,10 +58,10 @@ body h1 {
     left: 0px;
     text-align: center;
     background-color: lightpink;
-    padding: 10px;
+    padding: 10px; */
 }
 
-body {
+/* body {
     background-color: pink;
     height: 100vh;
     display: flex;
@@ -123,4 +150,4 @@ body {
     transform: translateX(190px);
 }
 
-
+ */
