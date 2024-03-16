@@ -44,6 +44,19 @@ body h1 {
     padding: 10px;
 }
 
+body .search, .loading, .expanding, .sound, .navigation, .landingpage {
+    background-color: white;
+    position: relative;
+    top: px;
+}
+
+.btn {
+    padding: 10px;
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+}
+
 /* body {
     background-color: pink;
     height: 100vh;
