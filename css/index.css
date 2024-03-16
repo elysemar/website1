@@ -28,7 +28,7 @@ body {
     margin: 15px;
 
 
-}
+
 
 body h1 {
     font-size: 340%;
@@ -36,21 +36,22 @@ body h1 {
     margin: 0 0 20px;
     justify-content: center;
     position: fixed;
-    top: 0;
-    right: 0px;
+    top:
+    right:
     left: 0px;
+    top: 0px;
     text-align: center;
-    background-color: lightpink;
+    background-color: ;
     padding: 10px;
 }
 
-.search a, .loading a {    background-color: lightpink;
-    position: relative;
-    top: px;
-    color: pink;
+.link {
+    background-color: lightpink;
+    position: center;
+    color: rgba(222, 22, 222, 0.2);
     text-decoration: none;
     flex-direction: column;
-    opacity:
+    opacity
 
 }
 
@@ -66,9 +67,9 @@ body h1 {
     font-family: "Madimi One", sans-serif;
 }
 
+/*
 
-
-/* body {
+body {
     background-color: pink;
     height: 100vh;
     display: flex;
@@ -156,5 +157,4 @@ body h1 {
 .loading.active .Lbtn{
     transform: translateX(190px);
 }
-
- */
+/*
