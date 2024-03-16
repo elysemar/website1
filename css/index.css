@@ -44,24 +44,26 @@ body h1 {
     padding: 10px;
 }
 
-.link {    background-color: lightpink;
-    position: center;
+.search a, .loading a {    background-color: lightpink;
+    position: relative;
     top: px;
     color: pink;
     text-decoration: none;
     flex-direction: column;
+    opacity:
 
 }
 
 .btn {
-    padding: 10px;
-    position: absolute;
-    left: 0px;
-    justify-content: center;
-    background-color: pink;
-    border-color: lightpink;
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: lightpink;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    border-radius: 50px;
+    border: white;
+    color: rgb(255, 112, 146);
+    cursor: pointer;
+    font-family: "Madimi One", sans-serif;
 }
 
 
