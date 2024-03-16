@@ -44,10 +44,11 @@ body h1 {
     padding: 10px;
 }
 
-body .search, .loading, .expanding, .sound, .navigation, .landingpage {
-    background-color: white;
+.search, .loading, .expanding, .sound, .navigation, .landingpage {
+    background-color: lightpink;
     position: center;
     top: px;
+    : pink;
 }
 
 .btn {
@@ -58,6 +59,8 @@ body .search, .loading, .expanding, .sound, .navigation, .landingpage {
     background-color: pink;
     border-color: lightpink;
 }
+
+
 
 /* body {
     background-color: pink;
