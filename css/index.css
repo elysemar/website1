@@ -30,7 +30,7 @@ body {
 
 }
 
-/* body h1 {
+body h1 {
     font-size: 340%;
     color: white;
     margin: 0 0 20px;
@@ -41,7 +41,7 @@ body {
     left: 0px;
     text-align: center;
     background-color: lightpink;
-    padding: 10px; */
+    padding: 10px;
 }
 
 /* body {
