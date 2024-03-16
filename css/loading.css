@@ -16,6 +16,17 @@ body {
     opacity: 1;
 }
 
+body .link {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    opacity: 0.4;
+    left: 0;
+    margin: 20px;
+    border-radius: 50px;
+}
+
 .bg {
     height: 100vh;
     width: 100vw;
