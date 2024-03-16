@@ -62,3 +62,15 @@ body {
         width: 100vw;
     }
 }
+
+
+body .link {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    opacity: 0.4;
+    left: 0;
+    margin: 20px;
+    border-radius: 50px;
+}
