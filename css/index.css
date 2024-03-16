@@ -48,7 +48,8 @@ body h1 {
     background-color: lightpink;
     position: center;
     top: px;
-    : pink;
+    color: pink;
+    text-decoration: none;
 }
 
 .btn {
