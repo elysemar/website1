@@ -1,8 +1,12 @@
-btn = document.querySelector('.btn')
-link = document.querySelector('.link')
+nav = document.querySelector('.nav')
 
-btn.addEventListener('click', () => {
-    link.classList.toggle('active')
-})
+window.addEventListener('scroll', fixNav)
 
+function fixNav() {
+    if(window.scrollY > 223) {
+        nav.classList.add('active')
+    } else {
+        nav.classList.remove('active')
+    }
+}
 
