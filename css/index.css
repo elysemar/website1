@@ -46,6 +46,9 @@ body {
 .hero h1 {
     font-size: 46px;
     margin: 0 0 20px;
+    background-color: rgb(245, 233, 237);
+    padding: 5px;
+
 }
 
 .content h2 {
