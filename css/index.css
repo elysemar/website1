@@ -38,7 +38,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: rgba(0,0,0,0.1);
     z-index: -1;
 }
@@ -48,6 +48,16 @@ body {
     margin: 0 0 20px;
 }
 
+.content h2, .content h3 {
+    font-size: 150%;
+    margin: 20px 0;
+}
+
+.content p {
+    color: #555;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
 
 
 .nav {
