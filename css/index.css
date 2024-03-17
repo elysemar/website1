@@ -54,16 +54,7 @@ body {
     border: none;
 }
 
-.btn {
-    background-color: rgb(245, 233, 237);
-    padding: 5px;
-    padding: 1.5rem 3rem;
-    margin: 1rem;
-    border-radius: 50px;
-    border: white;
-    color: rgb(199, 91, 129);
-    cursor: pointer;
-}
+
 
 .content h2 {
     color: rgb(199, 91, 129);
