@@ -108,6 +108,6 @@ body {
 
 .nav a.current,
 .nav a:hover {
-    color: black;
+    color: rgb(168, 57, 97);
     font-weight: bold;
 }
