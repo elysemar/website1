@@ -17,7 +17,7 @@ body {
 }
 
 .hero {
-    background-image: url(images/pfpattern.jpg);
+    background-image: url(images/bows.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -52,7 +52,7 @@ body {
 
 .nav {
     position: fixed;
-    background-color: palevioletred;
+    background-image: url(images/bows.jpg);
     top: 0;
     left: 0;
     right: 0;
