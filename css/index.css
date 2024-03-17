@@ -22,7 +22,7 @@ body {
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
-    color: white;
+    color: rgb(199, 91, 129);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@ body {
 }
 
 .content h2 {
-`   color: palevioletred;
+    color: rgb(199, 91, 129);
     font-size: 150%;
     margin: 20px 0;
 }
