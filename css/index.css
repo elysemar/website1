@@ -86,7 +86,7 @@ body {
 }
 
 .nav a {
-    color: palevioletred;
+    color: rgb(199, 91, 129);
     text-decoration: none;
     padding: 5px 15px;
     transition: all 0.3s ease-in-out;
@@ -99,7 +99,7 @@ body {
 }
 
 .nav.active a {
-    color: deeppink;
+    color: palevioletred;
 }
 
 .nav.active .container {
